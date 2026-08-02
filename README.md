@@ -10,7 +10,7 @@ The PINN closely reproduces the reference solution across the space-time domain.
 
 The notebook also visualizes the training history, reference and predicted fields, their error, and solution snapshots at several times.
 
-Note that the included reference trajectory was generated using **Optax**. To regenerate the reference dataset, run:
+Note that the included reference trajectory was generated using **Exponax**. To regenerate the reference dataset, run:
 
 ```bash
 python generate_dataset_exponax.py
